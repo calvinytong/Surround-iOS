@@ -29,11 +29,11 @@ class RGBViewController : UIViewController
     //viewDidLoad method to do initial screen setup
     override func viewDidLoad()
     {
-        sc.connect({(success: Bool!, error: NSError!) -> Void in
-        if success == true
-        {
-            self.testURL = NSURL(string: self.sc.url)
-            //self.testURL = NSURL(string: "rtsp://184.72.239.149/vod/mp4:BigBuckBunny_175k.mov")
+//        sc.connect({(success: Bool!, error: NSError!) -> Void in
+//        if success == true
+//        {
+//            self.testURL = NSURL(string: self.sc.url)
+            self.testURL = NSURL(string: "rtsp://184.72.239.149/vod/mp4:BigBuckBunny_175k.mov")
             self.sizeView()
             self.startStream()
             self.drawButtons()
@@ -44,9 +44,9 @@ class RGBViewController : UIViewController
             
             //listens to watchNotifications, runs watchNotification when the device is flipped
             NSNotificationCenter.defaultCenter().addObserver(self, selector: "watchNotification:", name: "watchNotification", object: nil)
-
-            }
-        })
+//
+//            }
+//        })
     }
     
     
@@ -180,7 +180,7 @@ class RGBViewController : UIViewController
     {
         //add code for red button here
         println("red pressed")
-        sc.socket.emit("change color", 1.0, 0.0, 0.0)
+//        sc.socket.emit("change color", 1.0, 0.0, 0.0)
     }
     
     //function called when the blue button is pressed
@@ -188,7 +188,7 @@ class RGBViewController : UIViewController
     {
         //add code for blue button here
         println("blue pressed")
-        sc.socket.emit("change color", 0.0, 0.0, 1.0)
+//        sc.socket.emit("change color", 0.0, 0.0, 1.0)
     }
     
     //function called when the green button is pressed
@@ -196,7 +196,7 @@ class RGBViewController : UIViewController
     {
         //add code for green button here
         println("green pressed")
-        sc.socket.emit("change color", 0.0, 1.0, 0.0)
+//        sc.socket.emit("change color", 0.0, 1.0, 0.0)
     }
     
     //function for handling the notification from the watch. unpacks the sent message and then runs a switch to determine which method to run
