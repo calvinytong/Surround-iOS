@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>CB1B24FA-CE6A-4FCC-9C1F-1442737E3CAF</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Surround-iOS</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>F6BD85ED05572F7A1ED7BD64A73DFC6AFF15D88F</key>
+		<string>https://github.com/ctong1234/Surround-iOS.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Surround-iOS/Surround-iOS.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>F6BD85ED05572F7A1ED7BD64A73DFC6AFF15D88F</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/ctong1234/Surround-iOS.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>F6BD85ED05572F7A1ED7BD64A73DFC6AFF15D88F</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>F6BD85ED05572F7A1ED7BD64A73DFC6AFF15D88F</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Surround-iOS</string>
+		</dict>
+	</array>
+</dict>
+</plist>

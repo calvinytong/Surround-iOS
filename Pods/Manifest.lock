@@ -1,0 +1,13 @@
+PODS:
+  - Socket.IO-Client-Swift (2.3.7)
+  - SwiftyJSON (2.2.0)
+
+DEPENDENCIES:
+  - Socket.IO-Client-Swift
+  - SwiftyJSON
+
+SPEC CHECKSUMS:
+  Socket.IO-Client-Swift: 5b77bbe077f6be4a3e68c379797f0e105c00360c
+  SwiftyJSON: 0b3e6c07af17ff745e77e8e9984097b55c956e5c
+
+COCOAPODS: 0.37.2
