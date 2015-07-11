@@ -180,7 +180,7 @@ class RGBViewController : UIViewController
     {
         //add code for red button here
         println("red pressed")
-//        sc.socket.emit("change color", 1.0, 0.0, 0.0)
+        sc.socket.emit("change color", 1.0, 0.0, 0.0)
     }
     
     //function called when the blue button is pressed
@@ -188,7 +188,7 @@ class RGBViewController : UIViewController
     {
         //add code for blue button here
         println("blue pressed")
-//        sc.socket.emit("change color", 0.0, 0.0, 1.0)
+        sc.socket.emit("change color", 0.0, 0.0, 1.0)
     }
     
     //function called when the green button is pressed
@@ -196,7 +196,7 @@ class RGBViewController : UIViewController
     {
         //add code for green button here
         println("green pressed")
-//        sc.socket.emit("change color", 0.0, 1.0, 0.0)
+        sc.socket.emit("change color", 0.0, 1.0, 0.0)
     }
     
     //function for handling the notification from the watch. unpacks the sent message and then runs a switch to determine which method to run
