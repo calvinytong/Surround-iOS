@@ -10,14 +10,14 @@
 	<string>Surround-iOS</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>D3AF99C67446825B8762BFC7E6FB02CCC57AB2D1</key>
+		<key>6C0820684464D41AB17B946F529D6A7767FD602F</key>
 		<string>https://github.com/ctong1234/Surround-iOS.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
 	<string>Surround-iOS.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>D3AF99C67446825B8762BFC7E6FB02CCC57AB2D1</key>
+		<key>6C0820684464D41AB17B946F529D6A7767FD602F</key>
 		<string>..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
@@ -25,14 +25,14 @@
 	<key>IDESourceControlProjectVersion</key>
 	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>D3AF99C67446825B8762BFC7E6FB02CCC57AB2D1</string>
+	<string>6C0820684464D41AB17B946F529D6A7767FD602F</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>D3AF99C67446825B8762BFC7E6FB02CCC57AB2D1</string>
+			<string>6C0820684464D41AB17B946F529D6A7767FD602F</string>
 			<key>IDESourceControlWCCName</key>
 			<string>Surround-iOS</string>
 		</dict>
