@@ -13,6 +13,7 @@
 		3E434C2C1B464C6E004A1990 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3E434C2B1B464C6E004A1990 /* Images.xcassets */; };
 		3E434C2F1B464C6E004A1990 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3E434C2D1B464C6E004A1990 /* LaunchScreen.xib */; };
 		3E434C3B1B464C6E004A1990 /* Surround_iOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E434C3A1B464C6E004A1990 /* Surround_iOSTests.swift */; };
+		3E711A341B54288900FB4C29 /* MobileVLCKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3EA8BB2D1B50D45A0042E21E /* MobileVLCKit.framework */; };
 		3E73FD341B4EF38B00FCB6B1 /* MultiViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E73FD331B4EF38B00FCB6B1 /* MultiViewController.swift */; };
 		3E73FD381B4EFBA500FCB6B1 /* RGBViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E73FD371B4EFBA500FCB6B1 /* RGBViewController.swift */; };
 		3E73FD431B4F33CE00FCB6B1 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E73FD421B4F33CE00FCB6B1 /* InterfaceController.swift */; };
@@ -23,7 +24,6 @@
 		3E73FD551B4F33CE00FCB6B1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3E73FD541B4F33CE00FCB6B1 /* Images.xcassets */; };
 		3E73FD581B4F33CE00FCB6B1 /* Surround-iOS WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 3E73FD3D1B4F33CE00FCB6B1 /* Surround-iOS WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		3E7440881B50636D005F95D1 /* SocketClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E7440871B50636D005F95D1 /* SocketClient.swift */; };
-		3EA8BB2E1B50D45A0042E21E /* MobileVLCKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3EA8BB2D1B50D45A0042E21E /* MobileVLCKit.framework */; };
 		3EF81D161B4C87F10096C42F /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3EF81D151B4C87F10096C42F /* CoreFoundation.framework */; };
 		3EFC738E1B464D62007EAC1A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3EFC738D1B464D62007EAC1A /* CoreGraphics.framework */; };
 		3EFC73901B464D69007EAC1A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3EFC738F1B464D69007EAC1A /* Foundation.framework */; };
@@ -93,6 +93,7 @@
 		3E434C341B464C6E004A1990 /* Surround-iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Surround-iOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E434C391B464C6E004A1990 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3E434C3A1B464C6E004A1990 /* Surround_iOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Surround_iOSTests.swift; sourceTree = "<group>"; };
+		3E711A321B54283B00FB4C29 /* Socket_IO_Client_Swift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Socket_IO_Client_Swift.framework; path = "Pods/../build/Debug-iphoneos/Pods-Surround-iOS/Socket_IO_Client_Swift.framework"; sourceTree = "<group>"; };
 		3E73FD331B4EF38B00FCB6B1 /* MultiViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MultiViewController.swift; sourceTree = "<group>"; };
 		3E73FD371B4EFBA500FCB6B1 /* RGBViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RGBViewController.swift; sourceTree = "<group>"; };
 		3E73FD3D1B4F33CE00FCB6B1 /* Surround-iOS WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Surround-iOS WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -136,7 +137,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3EA8BB2E1B50D45A0042E21E /* MobileVLCKit.framework in Frameworks */,
+				3E711A341B54288900FB4C29 /* MobileVLCKit.framework in Frameworks */,
 				3EF81D161B4C87F10096C42F /* CoreFoundation.framework in Frameworks */,
 				3EFC73A41B464DAE007EAC1A /* Security.framework in Frameworks */,
 				3EFC73A21B464DA8007EAC1A /* QuartzCore.framework in Frameworks */,
@@ -174,6 +175,7 @@
 		2DBB1B43F9AE895F7B4178D5 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				3E711A321B54283B00FB4C29 /* Socket_IO_Client_Swift.framework */,
 				3EA8BB2D1B50D45A0042E21E /* MobileVLCKit.framework */,
 				3E7440811B5031CB005F95D1 /* Socket_IO_Client_Swift.framework */,
 				3E7440821B5031CB005F95D1 /* SwiftyJSON.framework */,
